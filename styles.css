@@ -1,0 +1,231 @@
+.home{
+    background: url('glass.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    height: 500px;
+}
+.nav-bar{
+    background: #eee;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    z-index: 3;
+}
+i{
+    color: #000;
+}
+ul{
+    list-style: none;
+}
+li{
+    float: right;
+    margin-top: -28px;
+}
+li a{
+    color: #000;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+li a:hover{
+    text-decoration: none;
+}
+.contents{
+    margin: 20px;
+    overflow: hidden;
+}
+.content-img{
+    border: 2px solid blue;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+}
+h4{
+    color: gray;
+    font-size: 10px;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+h3{
+    text-transform: capitalize;
+}
+.progs{
+    width: 50px;
+    height: 48px;
+    margin: 5px;
+    float: right;
+}
+.group-imgs{
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+}
+#second{
+    margin-left: -35px;
+}
+#third{
+    margin-left: -35px;
+}
+.reaction{
+    border: none;
+    text-transform: uppercase;
+    background: lightgray;
+    padding: 8px;
+    width: 18%;
+    border-radius: 8px;
+    color: grey;
+    font-family: sans-serif;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+}
+p{
+    text-transform: capitalize;
+    padding: 10px;
+    font-family: sans-serif;
+}
+h5{
+    text-transform: capitalize;
+    padding: 10px;
+}
+input[type="radio"]{
+    margin: 0 10px;
+}
+label{
+    text-transform: capitalize;
+}
+.price{
+    margin-top: -20px;
+    margin-left: 23px
+}
+.price-tag{
+    display: block;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin: 10px;
+}
+.purpose{
+    background: lightgray;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    text-transform: capitalize;
+    width: 30%;
+    float: right;
+    font-weight: 600;
+    cursor: pointer;
+}
+.usage{
+    margin: 5px;
+    text-transform: capitalize;
+    color: green;
+}
+.usage-items{
+    margin: 5px;
+    color: black;
+    font-family: Calibri;
+    font-size: 18px;
+}
+#download{
+    background: blue;
+    border: none;
+    border-radius: 8px;
+    width: 250px;
+    padding: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 5px;
+}
+#demo{
+    background: none;
+    border: 1px solid blue;
+    border-radius: 8px;
+    width: 250px;
+    padding: 5px;
+    color: blue;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 5px;
+}
+.ads-box{
+    background: lightgray;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 3px;
+    width: 100%;
+}
+#banner{
+    width: 100%;
+    margin: 10px;
+    border-radius: 3px;
+}
+#carbon{
+    width: 200px;
+    height: 150px;
+    border-radius: 3px;
+}
+#brand-ads{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    color: black;
+}
+#ads{
+    text-transform: uppercase;
+    color: gray;
+    margin: 40px -10px 0 
+}
+h4{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.username{
+    color: lightgray;
+}
+.comments{
+    font-family: monospace;
+    font-size: 20px;
+    margin: 0 -10px
+}
+.fa-heart{
+    color: lightgray;
+    margin: 0 0 40px;
+}
+.likes{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin: 0 10px
+}
+.time{
+    font-family: Arial;
+    text-transform: uppercase
+}
+.footer{
+    background: #eee;
+    box-shadow: 2px solid white;
+    padding: 20px;
+}
+#follow{
+    background: blue;
+    border: none;
+    border-radius: 8px;
+    width: 80px;
+    padding: 10px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 15px;
+    margin: 5px;
+    font-weight: bold;
+}
+.footer-icons{
+    float: right;
+    color: gray;
+}
