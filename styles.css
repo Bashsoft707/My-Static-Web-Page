@@ -1,77 +1,96 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
 .home{
-    background: url('image/glass.jpg');
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: #f5f9fc;
+    height: 600px;
     width: 100%;
-    position: relative;
-    height: 500px;
 }
-.nav-bar{
-    background: #eee;
-    padding: 10px;
-    position: fixed;
+.nav-bar ul{
+    list-style-type: none;
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
     width: 100%;
-    height: 60px;
-    z-index: 3;
+    height: 50px;
 }
-i{
-    color: #000;
+.nav-bar li{
+    float: left;
 }
-ul{
-    list-style: none;
-}
-li{
-    float: right;
-    margin-top: -28px;
-}
-li a{
-    color: #000;
-    padding: 10px;
-    font-size: 20px;
+.nav-bar li a{
+    display: block;
+    padding: 14px 16px;
     text-decoration: none;
+    color: #000;
+    font-weight: bold;
     text-transform: uppercase;
-    font-weight: 600;
-    font-family: sans-serif;
+    font-size: 12px;
 }
-li a:hover{
+#bars{
+    margin: 0 20px;
+}
+#image{
+    margin: 0 -60px;
+}
+.nav-bar li a:hover{
     text-decoration: none;
 }
 .contents{
-    margin: 20px;
     overflow: hidden;
+    margin: 30px;
+}
+.nav-image{
+    width: 75%;
+    height: 541px;
+    margin: 0 150px ;
 }
 .content-img{
-    border: 2px solid blue;
     border-radius: 50%;
-    width: 55px;
-    height: 55px;
+    width: 50px;
+    height: 50px;
 }
-h4{
-    color: gray;
-    font-size: 10px;
-    font-family: monospace;
+.carabobo{
+    margin: 0 -90px;   
+}
+.carabobo h6{
+    color: #d9dad5;
+    font-family: Calibri;
     text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
 }
-h3{
+.carabobo h3{
     text-transform: capitalize;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.carabobo #vardo{
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.date h5{
+    text-transform: uppercase;
+    font-size: 15px;
 }
 .progs{
-    width: 50px;
-    height: 48px;
+    width: 30px;
+    height: 28px;
     margin: 5px;
     float: right;
 }
 .group-imgs{
     border: 2px solid white;
     border-radius: 50%;
-    width: 55px;
-    height: 55px;
+    width: 40px;
+    height: 40px;
 }
 #second{
-    margin-left: -35px;
+    margin-left: -25px;
 }
 #third{
-    margin-left: -35px;
+    margin-left: -25px;
 }
 .reaction{
     border: none;
@@ -80,20 +99,32 @@ h3{
     padding: 8px;
     width: 18%;
     border-radius: 8px;
-    color: grey;
+    color: gray;
     font-family: sans-serif;
-    font-weight: 600;
+    font-weight: bold;
     outline: none;
     cursor: pointer;
+    float: right;
+    margin: 5px;
 }
-p{
-    text-transform: capitalize;
+.details{
     padding: 10px;
     font-family: sans-serif;
+    font-size: 13px;
+    color: gray;
+}
+.my-dropdown{
+    display: none;
+    z-index: 3;
+}
+#dropdown{
+    color: blue;
+    cursor: pointer;
 }
 h5{
     text-transform: capitalize;
     padding: 10px;
+    font-size: 14px;
 }
 input[type="radio"]{
     margin: 0 10px;
@@ -102,8 +133,8 @@ label{
     text-transform: capitalize;
 }
 .price{
-    margin-top: -20px;
-    margin-left: 23px
+    margin-top: -10px;
+    margin-left: 33px;
 }
 .price-tag{
     display: block;
@@ -132,36 +163,29 @@ label{
     margin: 5px;
     color: black;
     font-family: Calibri;
-    font-size: 18px;
+    font-size: 15px;
 }
 #download{
     background: blue;
     border: none;
     border-radius: 8px;
-    width: 250px;
-    padding: 5px;
+    width: 930px;
+    padding: 10px;
     color: white;
-    text-transform: uppercase;
-    font-size: 20px;
-    margin: 5px;
+    text-transform: capitalize;
+    font-size: 15px;
+    margin: 10px;
 }
 #demo{
     background: none;
     border: 1px solid blue;
     border-radius: 8px;
-    width: 250px;
-    padding: 5px;
+    width: 930px;
+    padding: 10px;
     color: blue;
-    text-transform: uppercase;
-    font-size: 20px;
-    margin: 5px;
-}
-.ads-box{
-    background: lightgray;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 3px;
-    width: 100%;
+    text-transform: capitalize;
+    font-size: 15px;
+    margin: 10px;
 }
 #banner{
     width: 100%;
@@ -169,44 +193,60 @@ label{
     border-radius: 3px;
 }
 #carbon{
-    width: 200px;
-    height: 150px;
+    width: 130px;
+    height: 90px;
     border-radius: 3px;
+    margin: 20px;
 }
-#brand-ads{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.ads-box{
+    background: #f5f9fc;
+    margin: 20px 0;
+    border-radius: 3px;
+    width: 100%;
+    height: 130px;
+}
+.brand{
+    display: inline-block;
+}
+.ads-box #brand-ads{
+    font-family: sans-serif;
     text-transform: capitalize;
-    color: black;
+    color: gray;
+    font-size: 13px;
+    display: block;
 }
-#ads{
+.ads-box #ads{
     text-transform: uppercase;
     color: gray;
-    margin: 40px -10px 0 
+    font-size: 12px; 
+    font-family: Arial;
+    font-weight: bold;
 }
-h4{
+.rows{
+    margin: 20px;
+}
+.users{
+    margin: 5px -30px;
+    font-size: 13px;
+    display: block;
+}
+.users h4{
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 15px;
 }
 .username{
     color: lightgray;
 }
 .comments{
     font-family: monospace;
-    font-size: 20px;
-    margin: 0 -10px
 }
-.fa-heart{
+.users .user-react{
     color: lightgray;
-    margin: 0 0 40px;
-}
-.likes{
     text-transform: uppercase;
     font-family: sans-serif;
-    margin: 0 10px
-}
-.time{
-    font-family: Arial;
-    text-transform: uppercase
+    font-size: 12px;
+    padding: 0 10px 0 0; 
 }
 .footer{
     background: #eee;
@@ -225,7 +265,8 @@ h4{
     margin: 5px;
     font-weight: bold;
 }
-.footer-icons{
+.footer-options{
     float: right;
     color: gray;
+    padding: 20px 0 0 20px; 
 }
