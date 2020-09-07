@@ -285,4 +285,8 @@ label{
     .nav-image{
         margin: 0 20px;      
     }
+    .reaction{
+        padding: 5px;
+        width: 20%;
+    }
 }
