@@ -7,103 +7,113 @@
     <title>Static Page</title>
     <link rel="stylesheet" href="styles.css" type="text/css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-4.5.2-dist/css/bootstrap.min.css">
      
 </head>
-<body>
-    <section class="home">
-        <div class="nav-bar">
+<body style="overflow-x:hidden;">
+    <div class="my-2">
+        <div class="nav nav-bar">
             <ul>
-                <div class="row">
-                    <div class="col-md-9">
+                <div class="d-flex justify-content-between">
+                    <div class="">
                         <li class="nav-list" id="bars">
                             <a href="#"><i class="fa fa-bars"></i></a>
                         </li>
-                        <li class="nav-list" id="image">
-                           <a href="#"><img src="image/default--color.svg" alt="" width="180px" height="30px"></a>
+                        <li class="nav-list pl-3" id="image">
+                           <a href="#"><img src="image/default--color.svg" alt="" style="width:20vw;min-width:60px !important;max-width:120px !important;"></a>
                         </li>
                     </div>
-                    <div class="col-md-3">
-                        <!-- <li class="nav-list"><input autocomplete="off" class="header-search__input" placeholder="Search"
-                         ref="input" spellcheck="false" type="text" value=""/></li> -->
+                    <div class="text-left">
                         <li class="nav-list"><a href="#"><i class="fa fa-search"></i></a></li>
                         <li class="nav-list"><a href="#">upload</a></li>
                         <li class="nav-list"><a href="#">list</a></li>
                     </div>
                 </div>
-                <div class="row">
-                    <img src="image/preview.png" alt="preview" class="nav-image">
-                </div>
             </ul>
         </div>
-    </section>
-    <section class="contents">
-        <div class="row">
-            <div class="col-md-2 col-sm-3">
-                <img src="image/image_2.jpg" alt="" class="content-img">
+    </div>
+
+    <div class=" my-2">
+        <div class="my-2 mb-3">
+            <img src="image/preview.png" alt="preview" class="nav-image">
+        </div>
+        <div class="d-flex justify-content-between">
+            <div class="d-flex">
+                <div class="m-2">
+                    <img src="image/image_2.jpg" alt="" class="content-img">
+                </div>
+                <div class="m-2 carabobo">
+                    <h6>2nd of the day in web design</h6>
+                    <h3>carabobo - material design landing page</h3>
+                    <h6 id="vardo">by vardo</h6>
+                </div>
             </div>
-            <div class="col-md-8 col-sm-6 carabobo">
-                <h6>2nd of the day in web design</h6>
-                <h3>carabobo - material design landing page</h3>
-                <h6 id="vardo">by vardo</h6>
-            </div>
-            <div class="col-md-2 col-sm-3 date">
+            <div class="p-2 date">
                 <h5>jul 15</h5>
             </div>
         </div>
-        <p class="details">
+        <p class="details p-3">
             Carabao is a creative template with a clean design and minimalist layout
             <a id="dropdown">
                 more <i class="fa fa-chevron-down"></i>
             </a>
         </p>
-        <div class="my-dropdown" id="myDropdown">
+        <div class="my-dropdown p-3" id="myDropdown">
             <h5>images</h5>
             <p class="details">The live preview image are not included in the download pack. all images used in 
             the preview purpose are licensed and used with permission </p>
             <h5>credits</h5>
             <p class="details">icons - <a href="#">http://www.uplabs.com/posts/new-freebie-material-design-avatar-set</a></p>
         </div>    
-            <div class="row">
-                <div class="col-md-12">
-                    <a href="#"><img src="image/photoshop.png" alt="" class="progs"></a>
-                    <a href="#"><img src="image/jquery.png" alt="" class="progs"></a>
-                    <a href="#"><img src="image/html.png" alt="" class="progs"></a>
-                    <a href="#"><img src="image/bootstrap.png" alt="" class="progs"></a>
+            <div class="p-2 my-4">
+                <div class="row my-3">
+                    <div class="col-md-12">
+                        <a href="#"><img src="image/photoshop.png" alt="" class="progs"></a>
+                        <a href="#"><img src="image/jquery.png" alt="" class="progs"></a>
+                        <a href="#"><img src="image/html.png" alt="" class="progs"></a>
+                        <a href="#"><img src="image/bootstrap.png" alt="" class="progs"></a>
+                    </div>
                 </div>
-            </div>
              
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="image/first.png" alt="" class="group-imgs" id="first">
-                    <img src="image/second.jpeg" alt="" class="group-imgs" id="second">
-                    <img src="image/third.png" alt="" class="group-imgs" id="third">
-                    <span>Bash and 1260 upvoted,  20988 viewed this post</span>
-                </div>
-                <div class="col-md-6">
-                    <button class="reaction"><i class="fa fa-thumbs-up"></i>1590</button>
-                    <button class="reaction">save</button>
-                </div>
+                <div class="my-4">
+                    <div class="">
+                        <img src="image/first.png" alt="" class="group-imgs" id="first">
+                        <img src="image/second.jpeg" alt="" class="group-imgs" id="second">
+                        <img src="image/third.png" alt="" class="group-imgs" id="third">
+                        <span>Bash and 1260 upvoted,  20988 viewed this post</span>
+                    </div>
+                    <div class="">
+                        <div class="p-3">
+                            <button class="reaction">save</button>
+                            <button class="reaction "><i class="fa fa-thumbs-up"></i>1590</button>
+                        </div>
+                    </div>
             </div>
-            <p style="margin: 20px 10px;">Featured in <strong style="color: blue;">Web design</strong></p><hr>
-            <input type="radio" name="package" checked><label>
-                <strong>subscribe & save</strong>
-            </label>
-               <p class="price"><strong style="color: green;">$9.99</strong> 
-                to access to 50,000+ commercial-ready resources</p>
-            <input type="radio" name="package"><label>
-                <strong>purchase this product only</strong>
+            </div>  
+            <div class="p-2 my-2">  
+                <font style="" class="">Featured in 
+                    <strong class="text-primary">Web design</strong>
+                </font>
+                <hr>
+                    <input type="radio" name="package" checked><label>
+                    <strong>subscribe & save</strong>
                 </label>
-                <p class="price"><strong style="color: green;">$29</strong></p>
-            <hr>
+                   <p class="price"><strong style="color: green;">$9.99</strong> 
+                    to access to 50,000+ commercial-ready resources</p>
+                <input type="radio" name="package"><label>
+                    <strong>purchase this product only</strong>
+                    </label>
+                    <p class="price"><strong style="color: green;">$29</strong></p>
+                <hr>
+            </div>
 
             <span class="price-tag"><sup>$</sup>9.99/m </span>
-            <select name="purpose" class="purpose">
+            <select name="purpose" class="purpose m-2">
                 <option value="1">personal & commercial license</option>
                 <option value="1">corporate ventures</option>
                 <option value="1">international license</option>
             </select><br>
-            <div class="usage">
+            <div class="usage p-2">
                 <i class="fa fa-check-circle usage">
                     <span class="usage-items">for <strong>commercial use</strong></span>
                 </i><br>
@@ -121,23 +131,21 @@
                 </i><br>
             </div>
 
-            <div class="row">
-                <div class="col-md-12">
-                    <button id="download">download now</button>
+                <div class="px-3" >
+                    <button id="download" class="w-100">download now</button>
                 </div>
-                <div class="col-md-12">
-                    <button id="demo">demo</button>
+                <div class="px-3">
+                    <button id="demo" class="w-100">demo</button>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 sm-12 lg-12 xs-12">
-                    <img src="image/banner.gif" alt="banner" id="banner">
+                <div class="row">
+                    <div class="col-md-12 sm-12 lg-12 xs-12">
+                        <img src="image/banner.gif" alt="banner" id="banner">
+                    </div>
                 </div>
-            </div>
             
-            <div class="ads-box">
+            <div class="ads-box d-flex m-1 my-2 p-1">
                 <img src="image/carbon.jpg" alt="" id="carbon">
-                <span class="brand">
+                <span class="brand my-3">
                     <a href="#" id="brand-ads">
                     your brand deserves the best. 
                     show off you brand guidelines in a digital 
@@ -147,65 +155,71 @@
                 </span>
             </div>
 
-            <div class="row rows">
-                <div class="col-md-1">
-                    <img src="image/man.jpeg" alt="" class="group-imgs">
-                </div>
-                <div class="col-md-4 users">
-                    <h4>arpan kumar</h4>
-                    <span class="username">@arpankumar43</span>
-                    <p class="comments">Awesome</p>
-                    <span class="user-react"><i class="fa fa-heart"></i></span>
-                    <span class="user-react">like</span>
-                    <span class="user-react">2 years ago</span>
-                </div>
-            </div>
-            <div class="row rows">
-                    <div class="col-md-1">
-                        <img src="image/second.jpeg" alt="" class="group-imgs">
+            <div class="p-3 my-5">
+                <div class="d-flex justify-content-between" style="max-width:180px;">
+                    <div class="">
+                        <img src="image/man.jpeg" alt="" class="group-imgs">
                     </div>
-                    <div class="col-md-4 users">
-                        <h4>adelanke adeleye</h4>
-                        <span class="username">@adelankeadeleye</span>
+                    <div class="users">
+                        <h4>arpan kumar</h4>
+                        <span class="username">@arpankumar43</span>
                         <p class="comments">Awesome</p>
                         <span class="user-react"><i class="fa fa-heart"></i></span>
                         <span class="user-react">like</span>
                         <span class="user-react">2 years ago</span>
                     </div>
                 </div>
-                <div class="row rows">
-                        <div class="col-md-1">
-                            <img src="image/josh.jpeg" alt="" class="group-imgs">
+                <div class="d-flex justify-content-between" style="max-width:180px;">
+                        <div class="">
+                            <img src="image/second.jpeg" alt="" class="group-imgs">
                         </div>
-                        <div class="col-md-4 users">
-                            <h4>jomar lang</h4>
-                            <span class="username">@jomarsibai</span>
-                            <p class="comments">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                Dicta minima vitae laborum quam, optio nisi inventore libero animi 
-                                labore veniam quod cum voluptatum, 
-                                esse quasi perferendis saepe velit ratione nemo!</p>
-                                <span class="user-react"><i class="fa fa-heart"></i></span>
-                                <span class="user-react">like</span>
-                                <span class="user-react">2 years ago</span>
+                        <div class=" users">
+                            <h4>adelanke adeleye</h4>
+                            <span class="username">@adelankeadeleye</span>
+                            <p class="comments">Awesome</p>
+                            <span class="user-react"><i class="fa fa-heart"></i></span>
+                            <span class="user-react">like</span>
+                            <span class="user-react">2 years ago</span>
                         </div>
                     </div>
-    </section>
-    <section class="footer">
-        <div class="row">
-            <div class="col-md-1">
-                <img src="image/image_2.jpg" alt="" class="group-imgs">
+                    <div class="d-flex justify-content-between w-100" style="">
+                        <div class="mr-5">
+                            <img src="image/josh.jpeg" alt="" class="group-imgs">
+                        </div>
+                        <div class="users">
+                            <h4>jomar lang</h4>
+                            <span class="username">@jomarsibai</span>
+                            <p class="comments">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Dicta minima vitae laborum quam, optio nisi inventore libero animi 
+                            labore veniam quod cum voluptatum, 
+                            esse quasi perferendis saepe velit ratione nemo!</p>
+                            <span class="user-react"><i class="fa fa-heart"></i></span>
+                            <span class="user-react">like</span>
+                            <span class="user-react">2 years ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+    </div>
+    <div class="footer ">
+        <div class="d-flex justify-content-between">
+            <div class="d-flex">
+                <div class="mr-5">
+                    <img src="image/image_2.jpg" alt="" class="group-imgs">
+                </div>
+                <div class="users">
+                    <h4>vardo</h4>
+                    <span class="user-react">uploaded 4 years ago</span>
+                </div>
             </div>
-            <div class="col-md-4 users">
-                <h4>vardo</h4>
-                <span class="user-react">uploaded 4 years ago</span>
+            <div class="">
+                <i class="fa fa-ellipsis-v footer-options"></i>
+                <i class="fa fa-share-alt footer-options"></i>
+                <button id="follow" class="footer-options">follow</button>
             </div>
-        <div class="col-md-7">
-            <i class="fa fa-ellipsis-v footer-options"></i>
-            <i class="fa fa-share-alt footer-options"></i>
-            <button id="follow" class="footer-options">follow</button>
         </div>
-        </div>
-    </section>
+    </div>
     <script src="script.js">
     
     </script>
